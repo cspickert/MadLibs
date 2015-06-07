@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		7E6AEC951B24E15E007F1C74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEC941B24E15E007F1C74 /* main.m */; };
 		7E6AEC981B24E15E007F1C74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEC971B24E15E007F1C74 /* AppDelegate.m */; };
-		7E6AEC9B1B24E15E007F1C74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEC9A1B24E15E007F1C74 /* ViewController.m */; };
+		7E6AEC9B1B24E15E007F1C74 /* MadLibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AEC9A1B24E15E007F1C74 /* MadLibViewController.m */; };
 		7E6AEC9E1B24E15E007F1C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AEC9C1B24E15E007F1C74 /* Main.storyboard */; };
 		7E6AECA01B24E15E007F1C74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AEC9F1B24E15E007F1C74 /* Images.xcassets */; };
 		7E6AECA31B24E15E007F1C74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6AECA11B24E15E007F1C74 /* LaunchScreen.xib */; };
 		7E6AECAF1B24E15E007F1C74 /* MadLibsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AECAE1B24E15E007F1C74 /* MadLibsTests.m */; };
+		7E6AECBD1B24E2D8007F1C74 /* MadLibFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AECBC1B24E2D8007F1C74 /* MadLibFieldCell.m */; };
+		7E6AECC01B24E547007F1C74 /* MadLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AECBF1B24E547007F1C74 /* MadLib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		7E6AEC941B24E15E007F1C74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E6AEC961B24E15E007F1C74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E6AEC971B24E15E007F1C74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E6AEC991B24E15E007F1C74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E6AEC9A1B24E15E007F1C74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E6AEC991B24E15E007F1C74 /* MadLibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MadLibViewController.h; sourceTree = "<group>"; };
+		7E6AEC9A1B24E15E007F1C74 /* MadLibViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadLibViewController.m; sourceTree = "<group>"; };
 		7E6AEC9D1B24E15E007F1C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E6AEC9F1B24E15E007F1C74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E6AECA21B24E15E007F1C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7E6AECA81B24E15E007F1C74 /* MadLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6AECAD1B24E15E007F1C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E6AECAE1B24E15E007F1C74 /* MadLibsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadLibsTests.m; sourceTree = "<group>"; };
+		7E6AECBB1B24E2D8007F1C74 /* MadLibFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadLibFieldCell.h; sourceTree = "<group>"; };
+		7E6AECBC1B24E2D8007F1C74 /* MadLibFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadLibFieldCell.m; sourceTree = "<group>"; };
+		7E6AECBE1B24E547007F1C74 /* MadLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadLib.h; sourceTree = "<group>"; };
+		7E6AECBF1B24E547007F1C74 /* MadLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,12 @@
 			children = (
 				7E6AEC961B24E15E007F1C74 /* AppDelegate.h */,
 				7E6AEC971B24E15E007F1C74 /* AppDelegate.m */,
-				7E6AEC991B24E15E007F1C74 /* ViewController.h */,
-				7E6AEC9A1B24E15E007F1C74 /* ViewController.m */,
+				7E6AEC991B24E15E007F1C74 /* MadLibViewController.h */,
+				7E6AEC9A1B24E15E007F1C74 /* MadLibViewController.m */,
+				7E6AECBB1B24E2D8007F1C74 /* MadLibFieldCell.h */,
+				7E6AECBC1B24E2D8007F1C74 /* MadLibFieldCell.m */,
+				7E6AECBE1B24E547007F1C74 /* MadLib.h */,
+				7E6AECBF1B24E547007F1C74 /* MadLib.m */,
 				7E6AEC9C1B24E15E007F1C74 /* Main.storyboard */,
 				7E6AEC9F1B24E15E007F1C74 /* Images.xcassets */,
 				7E6AECA11B24E15E007F1C74 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E6AEC9B1B24E15E007F1C74 /* ViewController.m in Sources */,
+				7E6AECC01B24E547007F1C74 /* MadLib.m in Sources */,
+				7E6AEC9B1B24E15E007F1C74 /* MadLibViewController.m in Sources */,
 				7E6AEC981B24E15E007F1C74 /* AppDelegate.m in Sources */,
+				7E6AECBD1B24E2D8007F1C74 /* MadLibFieldCell.m in Sources */,
 				7E6AEC951B24E15E007F1C74 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
